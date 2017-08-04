@@ -24,6 +24,7 @@ zstyle ':prezto:*:*' color 'yes'
 # Set the Prezto modules to load (browse modules).
 # The order matters.
 zstyle ':prezto:load' pmodule \
+  'docker' \
   'autosuggestions' \
   'environment' \
   'terminal' \
@@ -51,7 +52,7 @@ zstyle ':prezto:load' pmodule \
 #
 
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'vi'
+# zstyle ':prezto:module:editor' key-bindings 'vi'
 
 # Auto convert .... to ../..
 # zstyle ':prezto:module:editor' dot-expansion 'yes'
@@ -101,6 +102,8 @@ zstyle ':prezto:module:editor' key-bindings 'vi'
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
 zstyle ':prezto:module:prompt' theme 'sorin'
+# zstyle ':prezto:module:prompt' theme 'cloud'
+# zstyle ':prezto:module:prompt' theme 'nicoulaj'
 
 # Set how themes that use promptpwd function display the pwd, can be 'short', 'long', or 'full'
 # zstyle ':prezto:module:prompt' pwd-length 'short'
